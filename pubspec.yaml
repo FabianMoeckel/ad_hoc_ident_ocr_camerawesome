@@ -1,0 +1,21 @@
+name: ad_hoc_ident_ocr_camerawesome
+description: "Provides camera access and conversion to OcrImage as part of the ad_hoc_ident framework."
+version: 0.0.1-preview-1
+homepage: https://github.com/FabianMoeckel/ad_hoc_ident_ocr_camerawesome
+repository: https://github.com/FabianMoeckel/ad_hoc_ident_ocr_camerawesome
+
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camerawesome: ^2.1.0
+  ad_hoc_ident_ocr: ^0.0.1-preview-1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
